@@ -111,7 +111,36 @@ a{
     /* color: black; */
 
 }
-
+.role{
+    font-weight: 600;
+}
+.mem{
+    margin: 1em;
+}
+.adown{
+    color: white;
+}
+.adown:hover{
+    color: rgb(0, 35, 148);
+}
+.light{
+    font-weight: 300;
+    font-size: 0.8em;
+}
+.topic-box{
+    display: grid;
+    place-items: center;
+}
+.wrapbox{
+    display: grid;
+    place-items: center;
+}
+/* .mem-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+} */
 .title{
     font-family: Poppins;
     font-weight: 500;
@@ -124,7 +153,7 @@ a{
     place-content: center;
     background-image: url('imgs/low-poly-grid-haikei\(2\).svg');
     background-repeat:repeat;
-    
+    height: 100vh;
     color: white;
 }
 .logo{
